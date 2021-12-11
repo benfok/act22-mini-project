@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: green;
+    border-bottom: 10px solid lightgreen;
+}
+
+nav {
+    color: white;
+    float: right;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+
+main {
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+figure {
+    margin: auto;
+}
+
+figcaption {
+    margin: 25px 0 40px 0;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+section {
+    background-color: lightgreen;
+    border-top: 2px solid green;
+    padding-bottom: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    padding-top:10px;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+    margin-left: 25px;
+    margin-bottom: 8px;
+
+}
+
+.text-field {
+    padding-left: 5px;
+}
+
+.button {
+    padding: 8px;
+    display: block;
+    margin: auto;
+    border-radius: 5px; 
+}
